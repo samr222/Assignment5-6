@@ -1,0 +1,97 @@
+/* CSS styles for the heading */
+.heading {
+    background-color: #37507e;
+    color: white;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+/* CSS styles for labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+/* CSS styles for  input fields */
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c6c4c4cc;
+    box-sizing: border-box;
+}
+
+/* CSS styles for oval button */
+.ovalbutton {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS styles for buttons */
+button {
+    border-radius: 50%;
+    padding: 10px 20px;
+    background-color: #37507e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* CSS styles for the converter section */
+.converter {
+    margin: 10%;
+    text-align: center;
+}
+
+/* CSS styles for the sections */
+.Section1,
+.Section2 {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.section1-1,
+.section2-1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d4b78;
+    padding: 5px;
+    margin-left: -4px; 
+    height: 100%; /* Set height to 100% */
+}
+
+
+.section1-1 img,
+.section2-1 img {
+    width: 30px;
+    height: 20px;
+    margin-right: 5px; 
+}
+
+.fa-exchange-alt {
+    margin: 20px;
+    color: #3d4b78;
+}
+
+select {
+    background-color: #37507e;
+    color: white; 
+    border: none; 
+    padding: 5px; 
+}
+
+/* CSS styles for button hover effect */
+
+button:hover {
+    background-color: #37507e;
+}
+
+/* CSS styles for images */
+img {
+    vertical-align: middle;
+}
